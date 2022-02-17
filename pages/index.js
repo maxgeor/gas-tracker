@@ -12,7 +12,7 @@ export default function Home() {
             <span className="text-gray-400 font-medium text-sm border-l border-gray-700 ml-5 pl-4">Sign in</span>
           </div>
         </header>
-        <h3 className="text-gray-400 mt-12 mb-6 sm:mb-7">Gas prices are...</h3>
+        <h3 className="text-gray-400 mt-10 sm:mt-12 mb-5 sm:mb-6">Gas prices are...</h3>
         <h1 className="text-6xl sm:text-7xl font-bold mb-14 sm:mb-16"><span className="text-5xl sm:text-6xl mb-2">🤝</span> Normal</h1>
         {/* <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-4">👍</span> Good</h1> */}
         {/* <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-4">👎</span> Bad</h1> */}
