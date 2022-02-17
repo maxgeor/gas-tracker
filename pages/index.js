@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className=" bg-gray-800 text-gray-50 min-h-screen pb-56">
       <div className="flex flex-col items-center max-w-4xl mx-auto">
-        <header className="px-4 flex justify-between items-center w-full mt-8 sm:mt-6">
+        <header className="px-4 flex justify-between items-center w-full mt-6">
           <div className="flex items-center space-x-2.5">
             <span className="rounded-full bg-gray-600 h-8 w-8"></span>
             <p className="font-semibold text-gray-500 hidden sm:block">"What's Gas Like?"</p>
@@ -12,8 +12,8 @@ export default function Home() {
             <span className="text-gray-400 font-medium text-sm border-l border-gray-700 ml-5 pl-4">Sign in</span>
           </div>
         </header>
-        <h3 className="text-gray-400 pt-12 mb-6 sm:mb-7">Gas prices are...</h3>
-        <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-2">🤝</span> Normal</h1>
+        <h3 className="text-gray-400 mt-12 mb-6 sm:mb-7">Gas prices are...</h3>
+        <h1 className="text-6xl sm:text-7xl font-bold mb-14 sm:mb-16"><span className="text-5xl sm:text-6xl mb-2">🤝</span> Normal</h1>
         {/* <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-4">👍</span> Good</h1> */}
         {/* <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-4">👎</span> Bad</h1> */}
         <section className="flex flex-col items-center text-gray-350 bg-gray-700 sm:rounded-xl shadow-md border border-gray-900 border-t-0 w-full sm:max-w-md p-6 sm:px-8 mb-24">
@@ -22,21 +22,21 @@ export default function Home() {
               <span className="w-2/3 leading-6">Send ETH</span>
               <div className="price flex self-start text-gray-50">
                 <span className="dollar-sign text-sm mt-0.5 mr-0.5">$</span>
-                <span className="amount text-2xl">8</span>
+                <span className="amount text-2xl font-medium">8</span>
               </div>
             </div>
             <div className="flex justify-between items-center">
               <span className="w-2/3 leading-6">Buy an NFT on OpenSea</span>
               <div className="price flex self-start text-gray-50">
                 <span className="dollar-sign text-sm mt-0.5 mr-0.5">$</span>
-                <span className="amount text-2xl">92</span>
+                <span className="amount text-2xl font-medium">92</span>
               </div>
             </div>
             <div className="flex justify-between items-center">
               <span className="w-2/3 leading-6">Swap a token on Uniswap</span>
               <div className="price flex self-start text-gray-50">
                 <span className="dollar-sign text-sm mt-0.5 mr-0.5">$</span>
-                <span className="amount text-2xl">92</span>
+                <span className="amount text-2xl font-medium">92</span>
               </div>
             </div>
           </div>

@@ -14,7 +14,7 @@ export default function Admin() {
             <span className="text-gray-400 font-medium text-sm border-l border-gray-700 ml-5 pl-4">Sign in</span>
           </div>
         </header>
-        <h3 className="text-gray-400 mt-14 mb-6">Gas prices are...</h3>
+        <h3 className="text-gray-400 mt-12 mb-6">Gas prices are...</h3>
         <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-2">🤝</span> Normal</h1>
         {/* <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-4">👍</span> Good</h1> */}
         {/* <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-4">👎</span> Bad</h1> */}
@@ -24,21 +24,21 @@ export default function Admin() {
               <span className="w-2/3 leading-6">Send ETH</span>
               <div className="price flex self-start text-gray-50">
                 <span className="dollar-sign text-sm mt-0.5 mr-0.5">$</span>
-                <span className="amount text-2xl">8</span>
+                <span className="amount text-2xl font-medium">8</span>
               </div>
             </div>
             <div className="flex justify-between items-center">
               <span className="w-2/3 leading-6">Buy an NFT on OpenSea</span>
               <div className="price flex self-start text-gray-50">
                 <span className="dollar-sign text-sm mt-0.5 mr-0.5">$</span>
-                <span className="amount text-2xl">92</span>
+                <span className="amount text-2xl font-medium">92</span>
               </div>
             </div>
             <div className="flex justify-between items-center">
               <span className="w-2/3 leading-6">Swap a token on Uniswap</span>
               <div className="price flex self-start text-gray-50">
                 <span className="dollar-sign text-sm mt-0.5 mr-0.5">$</span>
-                <span className="amount text-2xl">92</span>
+                <span className="amount text-2xl font-medium">92</span>
               </div>
             </div>
           </div>
