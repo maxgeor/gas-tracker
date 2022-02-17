@@ -4,7 +4,7 @@ export default function Admin() {
   return (
     <div className=" bg-gray-800 text-gray-50 min-h-screen pb-56">
       <div className="flex flex-col items-center max-w-4xl mx-auto">
-        <header className="px-4 flex justify-between items-center w-full mt-8 sm:mt-6">
+        <header className="px-4 flex justify-between items-center w-full mt-6">
           <div className="flex items-center space-x-2.5">
             <span className="rounded-full bg-gray-600 h-8 w-8"></span>
             <p className="font-semibold text-gray-500 hidden sm:block">"What's Gas Like?"</p>
