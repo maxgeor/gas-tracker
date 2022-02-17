@@ -13,45 +13,45 @@ export default function Home() {
           </div>
         </header>
         <h3 className="text-gray-400 pt-12 mb-6 sm:mb-7">Gas prices are...</h3>
-        <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-6xl mb-2">🤝</span> Normal</h1>
-        {/* <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-6xl mb-4">👍</span> Good</h1> */}
-        {/* <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-6xl mb-4">👎</span> Bad</h1> */}
+        <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-2">🤝</span> Normal</h1>
+        {/* <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-4">👍</span> Good</h1> */}
+        {/* <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-4">👎</span> Bad</h1> */}
         <section className="flex flex-col items-center text-gray-350 bg-gray-700 sm:rounded-xl shadow-md border border-gray-900 border-t-0 w-full sm:max-w-md p-6 sm:px-8 mb-24">
-          <div className=" space-y-1 mb-6 w-full">
-            <div className="flex justify-between">
-              <span>Send ETH</span>
-              <div className="price flex text-gray-50">
+        <div className=" space-y-1 mb-6 w-full">
+            <div className="flex justify-between items-center">
+              <span className="w-2/3 leading-6">Send ETH</span>
+              <div className="price flex self-start text-gray-50">
                 <span className="dollar-sign text-sm mt-0.5 mr-0.5">$</span>
                 <span className="amount text-2xl">8</span>
               </div>
             </div>
-            <div className="flex justify-between">
-              <span>Buy an NFT on OpenSea</span>
-              <div className="price flex text-gray-50">
+            <div className="flex justify-between items-center">
+              <span className="w-2/3 leading-6">Buy an NFT on OpenSea</span>
+              <div className="price flex self-start text-gray-50">
                 <span className="dollar-sign text-sm mt-0.5 mr-0.5">$</span>
                 <span className="amount text-2xl">92</span>
               </div>
             </div>
-            <div className="flex justify-between">
-              <span className="mr-24">Swap a token on Uniswap</span>
-              <div className="price flex text-gray-50">
+            <div className="flex justify-between items-center">
+              <span className="w-2/3 leading-6">Swap a token on Uniswap</span>
+              <div className="price flex self-start text-gray-50">
                 <span className="dollar-sign text-sm mt-0.5 mr-0.5">$</span>
                 <span className="amount text-2xl">92</span>
               </div>
             </div>
           </div>
           <div className="text-sm divide-y divide-gray-600 w-full">
-            <div className="py-1 flex justify-between">
+            <div className="py-2 flex justify-between">
               <span>Since last week</span>
-              <span className="text-base">-2<span className="text-xs">%</span></span>
+              <span className="text-base leading-5">-2<span className="text-xs">%</span></span>
             </div>
-            <div className="py-1 flex justify-between">
+            <div className="py-2 flex justify-between">
               <span>Since last month</span>
-              <span className="text-base">-2<span className="text-xs">%</span></span>
+              <span className="text-base leading-5">-2<span className="text-xs">%</span></span>
             </div>
-            <div className="py-1 flex justify-between">
-              <span>Since last two months</span>
-              <span className="text-base">-2<span className="text-xs">%</span></span>
+            <div className="py-2 flex justify-between">
+              <span>Since last 3 months</span>
+              <span className="text-base leading-5">-2<span className="text-xs">%</span></span>
             </div>
           </div>
         </section>
