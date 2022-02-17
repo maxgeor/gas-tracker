@@ -16,7 +16,7 @@ export default function Home() {
         <h1 className="text-6xl sm:text-7xl font-bold mb-14 sm:mb-16"><span className="text-5xl sm:text-6xl mb-2">🤝</span> Normal</h1>
         {/* <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-4">👍</span> Good</h1> */}
         {/* <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-4">👎</span> Bad</h1> */}
-        <section className="flex flex-col items-center text-gray-350 bg-gray-700 sm:rounded-xl shadow-md border border-gray-900 border-t-0 w-full sm:max-w-md p-6 sm:px-8 mb-20 sm:mb-24">
+        <section className="flex flex-col items-center text-gray-350 bg-gray-700 sm:rounded-xl shadow-md border border-gray-900 border-t-0 w-full sm:max-w-md p-6 sm:px-8 mb-16 sm:mb-24">
         <div className=" space-y-1 mb-6 w-full">
             <div className="flex justify-between items-center">
               <span className="w-2/3 leading-6">Send ETH</span>
