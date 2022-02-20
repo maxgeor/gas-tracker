@@ -14,6 +14,7 @@ module.exports = {
         xxs: ["0.625rem", "1rem"],
       },
       colors: {
+        stone: colors.stone,
         gray: {
           350: "#a2adba",
           400: "#868f9f",
