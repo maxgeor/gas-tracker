@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        md: '31rem'
+      },
       fontSize: {
         xxs: ["0.625rem", "1rem"],
       },

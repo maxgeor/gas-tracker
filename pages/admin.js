@@ -2,7 +2,7 @@
 
 export default function Admin() {
   return (
-    <div className=" bg-gray-800 text-gray-50 min-h-screen pb-56">
+    <div className=" bg-gray-800 text-gray-50 min-h-screen pb-48">
       <div className="flex flex-col items-center max-w-4xl mx-auto">
         <header className="px-4 flex justify-between items-center w-full mt-6">
           <div className="flex items-center space-x-2.5">
@@ -11,14 +11,14 @@ export default function Admin() {
           </div>
           <div className="flex items-center">
             <select value="USD" className="shadow-inner py-1 text-xs px-3 rounded-md bg-gray-700 border border-gray-600">USD</select>
-            <span className="text-gray-400 font-medium text-sm border-l border-gray-700 ml-5 pl-4">Sign in</span>
+            <span className="text-gray-400 font-medium text-sm border-l border-gray-700 ml-4 pl-3.5">Sign in</span>
           </div>
         </header>
-        <h3 className="text-gray-400 mt-12 mb-5 sm:mb-6">Gas prices are...</h3>
+        <h3 className="text-gray-400 mt-12 mb-5">Gas prices are...</h3>
         <h1 className="text-6xl sm:text-7xl font-bold mb-14 sm:mb-16"><span className="text-5xl sm:text-6xl mb-2">🤝</span> Normal</h1>
         {/* <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-4">👍</span> Good</h1> */}
         {/* <h1 className="text-6xl sm:text-7xl font-bold mb-16"><span className="text-5xl sm:text-6xl mb-4">👎</span> Bad</h1> */}
-        <section className="flex flex-col items-center text-gray-350 bg-gray-700 sm:rounded-xl shadow-md border border-gray-900 border-t-0 w-full sm:max-w-md p-6 sm:px-8 mb-5 ">
+        <section className="flex flex-col items-center text-gray-350 bg-gray-700 sm:rounded-xl shadow-md border border-gray-900 border-t-0 w-full sm:max-w-md p-6 sm:px-9 mb-5 ">
           <div className=" space-y-1 mb-6 w-full">
             <div className="flex justify-between items-center">
               <span className="w-2/3 leading-6">Send ETH</span>
@@ -57,8 +57,8 @@ export default function Admin() {
             </div>
           </div>
           </section>
-        <section className="text-gray-350 bg-gray-700 sm:rounded-xl shadow-md border border-gray-900 border-t-0 sm:max-w-md w-full p-6 sm:px-8">
-          <div className="flex space-x-1.5 items-center text-gray-400 mb-6">
+        <section className="text-gray-350 bg-gray-700 sm:rounded-xl shadow-md border border-gray-900 border-t-0 sm:max-w-md w-full p-6  sm:px-9">
+          <div className="flex space-x-1.5 items-center text-gray-400 mt-1 mb-6">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>          
             <h4 className="uppercase text-xs font-bold tracking-wide">Settings</h4>
           </div>
